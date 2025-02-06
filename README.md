@@ -18,9 +18,7 @@ MovieHub, React Native ve Expo kullanılarak geliştirilmiş bir mobil film uygu
    - `git clone https://github.com/sezeerz/MovieHub.git` komutunu çalıştırın
    - `cd MovieHub` komutunu çalıştırın
    - `npm install` komutunu çalıştırın
-   - `npx expo start` komutunu çalıştırın
-
-
+   - `npx expo start` komutunu çalıştırın  
 
 2. Uygulamayı test etmek için:
 
@@ -41,8 +39,7 @@ MovieHub, React Native ve Expo kullanılarak geliştirilmiş bir mobil film uygu
 - Alt Navigasyon Menüsü
 - Paylaşma
 - En çok arananlar
-- Favorilere ekleme
-
+- Favorilere ekleme 
 
 ## 🛠️ Kullanılan Teknolojiler
 
@@ -66,7 +63,4 @@ MovieHub, React Native ve Expo kullanılarak geliştirilmiş bir mobil film uygu
 - Uygulamayı ilk kez çalıştırırken tüm bağımlılıkların yüklü olduğundan emin olun 
 - Herhangi bir hata durumunda `npm install` komutunu tekrar çalıştırın
 - Expo Go uygulamasının güncel versiyonunu kullandığınızdan emin olun 
-
-## 📄 Lisans
-
-Bu proje [MIT lisansı](LICENSE) altında lisanslanmıştır.
+- Node.js sürümünüzün proje gereksinimleriyle uyumlu olduğundan emin olun 
