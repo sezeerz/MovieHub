@@ -59,7 +59,12 @@ MovieHub, React Native ve Expo kullanılarak geliştirilmiş bir mobil film uygu
 - "react-native-screens": "~4.4.0"
 
 ## 📝 Notlar
- 
+  
+- Uygulama içerisinde veritabanı kullanılmamıştır.
+- Kullanıcı verileri AsyncStorage ile saklanmaktadır.
+- Film verileri https://jsonfakery.com/movies/paginated üzerinden alınmaktadır.
+- Uygulama içerisinde filmleri pull to refresh ile yükleyebilirsiniz.
+- Her pull to refresh işlemi yapıldığında yeni film verileri alınır ve eski veriler silinir.(Favorilerdeki filmler dahil)  
 - Uygulamayı ilk kez çalıştırırken tüm bağımlılıkların yüklü olduğundan emin olun 
 - Herhangi bir hata durumunda `npm install` komutunu tekrar çalıştırın
 - Expo Go uygulamasının güncel versiyonunu kullandığınızdan emin olun 
