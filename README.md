@@ -13,12 +13,12 @@ MovieHub, React Native ve Expo kullanılarak geliştirilmiş bir mobil film uygu
 ### Kurulum Adımları
 
 1. Projeyi klonlayın:
-
-   - Terminalde MovieHub kaynak klasöre erişin 
    - `git clone https://github.com/sezeerz/MovieHub.git` komutunu çalıştırın
    - `cd MovieHub` komutunu çalıştırın
    - `npm install` komutunu çalıştırın
-   - `npx expo start` komutunu çalıştırın  
+   - `npm install -g expo-cli` komutunu çalıştırın
+   - `npx expo install @react-navigation/native @react-navigation/native-stack @react-native-async-storage/async-storage react-native-screens react-native-safe-area-context` komutunu çalıştırın
+   - `npx expo start` komutunu çalıştırın
 
 2. Uygulamayı test etmek için:
 
